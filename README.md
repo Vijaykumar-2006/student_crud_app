@@ -25,3 +25,13 @@ This is a **simple web-based CRUD application** built with **PHP**, **MySQL**, a
 
 ## 📁 Project Structure
 
+student-crud-app/
+│
+├── db.php # Database connection file
+├── index.php # Home page to list all students
+├── add.php # Form to add a new student
+├── edit.php # Form to edit existing student data
+├── delete.php # Logic to delete a student
+├── style.css # External CSS file for styling
+└── README.md # This file
+
