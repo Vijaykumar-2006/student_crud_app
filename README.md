@@ -1,37 +1,25 @@
-# Student Management System (PHP CRUD App)
+# Student CRUD App
 
-This is a **simple web-based CRUD application** built with **PHP**, **MySQL**, and **HTML/CSS** to manage student records. It allows users to **create**, **read**, **update**, and **delete** student data from a MySQL database through a clean and responsive user interface.
+A simple web-based application using **PHP**, **MySQL**, and **CSS** to manage student records.
 
----
+## Features
+- Add, View, Edit, Delete student details
+- Responsive UI using HTML + CSS
+- Secure MySQL interaction using `mysqli` prepared statements
 
-## 💡 Features
+## How to Run
+1. Clone or download the repo
+2. Import `student.sql` into your MySQL server
+3. Update `db.php` with your database credentials
+4. Run in a browser via XAMPP/LAMP (e.g., `http://localhost/student-crud-app`)
 
-- 📝 Add new student records
-- 📄 View all students in a styled table
-- ✏️ Edit existing student details
-- ❌ Delete student entries
-- ✅ Form validation and basic error handling
-- 🎨 Clean and responsive UI using CSS
-
----
-
-## 🔧 Technologies Used
-
-- **PHP** (Server-side scripting)
-- **MySQL** (Database)
-- **HTML & CSS** (Frontend layout and styling)
-
----
-
-## 📁 Project Structure
-
+## Folder Structure
 student-crud-app/
 │
-├── db.php # Database connection file
-├── index.php # Home page to list all students
-├── add.php # Form to add a new student
-├── edit.php # Form to edit existing student data
-├── delete.php # Logic to delete a student
-├── style.css # External CSS file for styling
-└── README.md # This file
-
+├── db.php
+├── index.php
+├── add.php
+├── edit.php
+├── delete.php
+├── style.css
+└── README.md
